@@ -1,39 +1,27 @@
 # Part 1
 ### a)
-
-grep ^beed filescan_00.1 > beedrill.tx
-grep izard$ filescan_00.2
-
+grep ^beed filescan_00.1 > beedrill.txt
+grep izard$ filescan_00.2 > charizard.txt
 
 ### b)
-
-
+pokemonName.txt
 
 ### c)
-
-
-
-
-
-
-
-
-
-
+filescan 1: beedrill, blastoise, bulbasaur, butterfree
+filescan 2: charizard, charmander, charmeleon
+filescan 3: ivysaur, jigglypugg, meowth, pikachu
+filescan 4: psyduck, squirtle, venusaur, wartortle
 
 
 
 # Part 2
 ### a)
-
-
-
-
-
+ls captured/*.txt | wc -l
+//shows 15 pokemon files
 
 ### b)
-
-
+find captured/ -type f -exec wc -l {} + | sort -rn
+//shows all files with number of lines
 
 
 
